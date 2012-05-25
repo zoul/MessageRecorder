@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0960D5156F66D200A7CAFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0960D4156F66D200A7CAFD /* Foundation.framework */; };
+		0D0960E4156F682C00A7CAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0960E2156F682C00A7CAFD /* main.m */; };
+		0D0960E7156F684C00A7CAFD /* CCMessageRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0960E6156F684C00A7CAFD /* CCMessageRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D0960CE156F66D200A7CAFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D0960D0156F66D200A7CAFD /* MessageRecorder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MessageRecorder; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0960D4156F66D200A7CAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D0960E2156F682C00A7CAFD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		0D0960E3156F682C00A7CAFD /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = SOURCE_ROOT; };
+		0D0960E5156F684C00A7CAFD /* CCMessageRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMessageRecorder.h; sourceTree = SOURCE_ROOT; };
+		0D0960E6156F684C00A7CAFD /* CCMessageRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMessageRecorder.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D0960CD156F66D200A7CAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0960D5156F66D200A7CAFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0960C5156F66D100A7CAFD = {
+			isa = PBXGroup;
+			children = (
+				0D0960D6156F66D200A7CAFD /* Code */,
+				0D0960D3156F66D200A7CAFD /* Frameworks */,
+				0D0960D1156F66D200A7CAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D0960D1156F66D200A7CAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0960D0156F66D200A7CAFD /* MessageRecorder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D0960D3156F66D200A7CAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D0960D4156F66D200A7CAFD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D0960D6156F66D200A7CAFD /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				0D0960E5156F684C00A7CAFD /* CCMessageRecorder.h */,
+				0D0960E6156F684C00A7CAFD /* CCMessageRecorder.m */,
+				0D0960E2156F682C00A7CAFD /* main.m */,
+				0D0960E3156F682C00A7CAFD /* prefix.pch */,
+			);
+			name = Code;
+			path = MessageRecorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D0960CF156F66D200A7CAFD /* MessageRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0960DF156F66D200A7CAFD /* Build configuration list for PBXNativeTarget "MessageRecorder" */;
+			buildPhases = (
+				0D0960CC156F66D200A7CAFD /* Sources */,
+				0D0960CD156F66D200A7CAFD /* Frameworks */,
+				0D0960CE156F66D200A7CAFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessageRecorder;
+			productName = MessageRecorder;
+			productReference = 0D0960D0156F66D200A7CAFD /* MessageRecorder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D0960C7156F66D100A7CAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0D0960CA156F66D100A7CAFD /* Build configuration list for PBXProject "MessageRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D0960C5156F66D100A7CAFD;
+			productRefGroup = 0D0960D1156F66D200A7CAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D0960CF156F66D200A7CAFD /* MessageRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0960CC156F66D200A7CAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0960E4156F682C00A7CAFD /* main.m in Sources */,
+				0D0960E7156F684C00A7CAFD /* CCMessageRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D0960DD156F66D200A7CAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0D0960DE156F66D200A7CAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0D0960E0156F66D200A7CAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D0960E1156F66D200A7CAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D0960CA156F66D100A7CAFD /* Build configuration list for PBXProject "MessageRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0960DD156F66D200A7CAFD /* Debug */,
+				0D0960DE156F66D200A7CAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0960DF156F66D200A7CAFD /* Build configuration list for PBXNativeTarget "MessageRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0960E0156F66D200A7CAFD /* Debug */,
+				0D0960E1156F66D200A7CAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D0960C7156F66D100A7CAFD /* Project object */;
+}
